@@ -73,8 +73,9 @@ body, html {
 .sunImg {
     position: absolute;
     filter: blur(4px);
-    top: 31%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     transition-property: all;
     transition-timing-function: ease;
     transition-duration: 0.5s;
@@ -112,72 +113,72 @@ body, html {
 .mercury {
     width: 10px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: mymercury 12s linear infinite; 
 }
 
 .venus {
     width: 25px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: myvenus 16s linear infinite; 
 }
 
 .earth {
     width: 20px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: myearth 28s linear infinite; 
 }
 
 .mars {
     width: 15px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: mymars 32s linear infinite; 
 }
 
 .jupiter {
     width: 40px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: myjupiter 40s linear infinite; 
 }
 
 .saturn {
     width: 60px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: mysaturn 60s linear infinite; 
 }
 
 .uranus {
     width: 20px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: myuranus 80s linear infinite; 
 }
 
 .neptune {
     width: 30px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: myneptune 90s linear infinite; 
 }
 
 .pluto {
     width: 7px;
     position: absolute;
-    top: 47%;
-    left: 48%;
+    top: 49.5%;
+    left: 49.5%;
     animation: mypluto 104s linear infinite; 
 }
 
