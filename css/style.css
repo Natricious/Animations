@@ -1,0 +1,285 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    background-image: url("../img/sun.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mercuryImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 100s linear infinite;
+}
+
+.venusImg {
+    position: absolute;
+    width: 100%;
+}
+
+.earthImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 2.5s linear infinite;
+}
+
+.marsImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 2.5s linear infinite;
+}
+
+.jupiterImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 2s linear infinite;
+}
+
+.saturnImg {
+    position: absolute;
+    width: 100%;
+}
+
+.uranusImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 9s linear infinite;
+}
+
+.neptuneImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 3s linear infinite;
+}
+
+.plutoImg {
+    position: absolute;
+    width: 100%;
+    animation: moving 18s linear infinite;
+}
+
+@keyframes moving {
+   100% {
+       transform: rotate(360deg);
+   }
+}
+
+.sunImg {
+    position: absolute;
+    filter: blur(4px);
+    top: 31%;
+    left: 40%;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+
+.sunImg:hover {
+    filter: blur(0);
+    cursor: pointer;
+}
+
+.astronaut1 {
+    position: absolute;
+    right: 7%;
+    bottom: 8%;
+    width: 250px;
+    transition-duration: 0.2s;
+}
+
+.astronaut1:hover {
+    rotate: 45deg;
+}
+
+.astronaut2 {
+    position: absolute;
+    left: 7%;
+    top: 8%;
+    width: 250px;
+    transition-duration: 0.2s;
+}
+
+.astronaut2:hover {
+    rotate: -45deg;
+}
+
+.mercury {
+    width: 10px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: mymercury 6s linear infinite; 
+}
+
+.venus {
+    width: 25px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: myvenus 8s linear infinite; 
+}
+
+.earth {
+    width: 20px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: myearth 14s linear infinite; 
+}
+
+.mars {
+    width: 15px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: mymars 16s linear infinite; 
+}
+
+.jupiter {
+    width: 40px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: myjupiter 20s linear infinite; 
+}
+
+.saturn {
+    width: 60px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: mysaturn 30s linear infinite; 
+}
+
+.uranus {
+    width: 20px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: myuranus 40s linear infinite; 
+}
+
+.neptune {
+    width: 30px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: myneptune 45s linear infinite; 
+}
+
+.pluto {
+    width: 7px;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    animation: mypluto 52s linear infinite; 
+}
+
+.star {
+    width: 30px;
+    position: relative;
+}
+
+.starImg {
+    width: 100%;
+}
+
+.star1 {
+    animation: curvedstar1 100s infinite linear;
+    top: 50%;
+    left: 10%;
+}
+
+.star2 {
+    animation: curvedstar2 70s infinite linear;
+    top: 30%;
+    left: 80%;
+    width: 40px;
+}
+
+.star3 {
+    animation: curvedstar3 120s infinite linear;
+    top: 20%;
+    left: 60%;
+}
+
+.star4 {
+    animation: curvedstar4 90s infinite linear;
+    top: 20%;
+    left: 30%;
+    width: 50px;
+}
+
+@keyframes curvedstar1 {
+    50% {
+      transform: translate3D(200px, -300px, 0);
+    }
+  }
+  
+  @keyframes curvedstar2 {
+    50% {
+      transform: translate3D(300px, 700px, 0);
+    }
+  }
+
+  @keyframes curvedstar3 {
+    50% {
+      transform: translate3D(-300px, 500px, 0);
+    }
+  }
+  @keyframes curvedstar4 {
+    50% {
+      transform: translate3D(-500px, 1200px, 0);
+    }
+  }
+
+@keyframes mymercury {
+    from { transform: rotate(0deg) translateX(40px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(40px) rotate(-360deg); }
+}
+
+@keyframes myvenus {
+    from { transform: rotate(0deg) translateX(60px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(60px) rotate(-360deg); }
+}
+
+@keyframes myearth {
+    from { transform: rotate(0deg) translateX(95px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(95px) rotate(-360deg); }
+}
+
+@keyframes mymars {
+    from { transform: rotate(0deg) translateX(140px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(140px) rotate(-360deg); }
+}
+
+@keyframes myjupiter {
+    from { transform: rotate(0deg) translateX(190px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(190px) rotate(-360deg); }
+}
+
+@keyframes mysaturn {
+    from { transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+@keyframes myuranus {
+    from { transform: rotate(0deg) translateX(320px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(320px) rotate(-360deg); }
+}
+
+@keyframes myneptune {
+    from { transform: rotate(0deg) translateX(360px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(360px) rotate(-360deg); }
+}
+
+@keyframes mypluto {
+    from { transform: rotate(0deg) translateX(390px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(390px) rotate(-360deg); }
+}
