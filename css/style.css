@@ -192,13 +192,13 @@ body, html {
 
 .star1 {
     animation: curvedstar1 100s infinite linear;
-    top: 50%;
+    top: 40%;
     left: 10%;
 }
 
 .star2 {
     animation: curvedstar2 70s infinite linear;
-    top: 30%;
+    top: 20%;
     left: 80%;
     width: 40px;
 }
@@ -235,7 +235,7 @@ body, html {
   }
   @keyframes curvedstar4 {
     50% {
-      transform: translate3D(-500px, 1200px, 0);
+      transform: translate3D(-300px, 500px, 0);
     }
   }
 
